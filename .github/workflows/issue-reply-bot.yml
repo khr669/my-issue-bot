@@ -1,5 +1,9 @@
 name: Issue Reply Bot
 
+# 添加权限声明
+permissions:
+  issues: write  # 允许对 issue 进行写操作（比如发表评论）
+
 on:
   issues:
     types: [opened]
